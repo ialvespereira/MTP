@@ -22,6 +22,7 @@ cos_de_teta=real/cabs(z);
 teta=asin(1-cos_de_teta);
 
 raiz_de_z=sqrt(cabs(z))*(cos(teta/2.0)+sin(teta/2.0)*I);
+raiz_de_z=csqrt(z);
 
 printf(" a raiz deste numero eh  %lf + %lf*I \n",creal(raiz_de_z),cimag(raiz_de_z));
 return 0;
